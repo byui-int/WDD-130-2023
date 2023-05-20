@@ -1,5 +1,5 @@
 
-content {
+#content {
     max-width: 1600px;
     margin: 0 auto;
 }
@@ -8,6 +8,7 @@ nav a {
     text-align: center;
     color: cyan;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1 {
@@ -26,6 +27,10 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 #background {
     height: 725px;
     background-color: #f9f9f9;
@@ -33,7 +38,16 @@ main section {
 
 body {
     background-color: cyan;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
+
+h2 {
+    margin: 0;
+}
+
 
 header {
     background-color: aqua;
@@ -46,6 +60,9 @@ nav a:hover {
 
 .home-tittle {
     color: blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    margin-top: 10px
 }
 
 .book,
@@ -53,6 +70,10 @@ nav a:hover {
     background-color: azure;
     color: beige;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book :hover,
@@ -61,8 +82,18 @@ nav a:hover {
     color: lightgray;
 }
 
+.icon {
+    padding: 10px;
+}
+
+.card-img{
+    border: 10px solid black;
+}
+
 .msg {
     background-color: lavender;
+    line-height: 1.5em;
+    padding: 35px;
  
 }
 .msg h2 {
@@ -71,6 +102,8 @@ nav a:hover {
 
 .msg p {
     color: darkblue;
+    font-size: 8em;
+    padding-bottom: 15px;
 }
 
 h4 {
@@ -81,9 +114,18 @@ h4 {
     width: 80px;
 }
 
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+#logo_link {
+    padding: 5px;
+}
+
 footer {
     background-color: blueviolet;
     color: burlywood;
+    padding: 25px 50px;
+    margin: 200px;
 }
 
 footer a {
@@ -101,4 +143,8 @@ footer p {
 
 footer p a:hover {
     text-decoration: underline;
+}
+
+footer .social img {
+    padding: 15px;
 }
