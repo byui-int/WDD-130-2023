@@ -128,25 +128,25 @@
   
 }
 .red4 {
-  width: 400px; 
+  width: 500%; 
   height: 100%; 
   background-color: red; 
   grid-row: 1 / span 3;
  
 } 
 .green4 {
-  width: 400px; 
+  width: 500%; 
   height: 200px; 
   background-color: green; 
 } 
 .yellow4 {
-  width: 400px; 
+  width: 500%; 
   height: 200px; 
   background-color: gold; 
   
 } 
 .blue4 {
-  width: 400px; 
+  width: 500%; 
   height: 200px; 
   background-color: blue; 
   
