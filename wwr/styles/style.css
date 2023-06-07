@@ -83,7 +83,7 @@ header {
 }
 
 nav a:hover {
-    background-color: rgb(5, 11, 2);
+    background-color: lightslategray;
     color: burlywood;
 }
 
