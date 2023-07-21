@@ -118,7 +118,7 @@ nav a {
 
 }
 nav a:link, nav a:visited {
-  color: var(--nav-link-color);
+  color: var(--nav-link-color)#360568;
 }
 nav a:hover {
   color: var(--nav-hover-link-color);
@@ -143,17 +143,17 @@ nav a:hover {
 }
 .sm-home {
   grid-area: home;
-  background-color: #ccc;
+  background-color: #7785AC;
   line-height: 3em;
 }
 .sm-page2 {
   grid-area: page2;
-  background-color: #ccc;
+  background-color: #9AC6C5;
   line-height: 3em;
 }
 .sm-page3 {
   grid-area: page3;
-  background-color: #ccc;
+  background-color: #9AC6C5;
   line-height: 3em;
 }
 
